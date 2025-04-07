@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECORDANDO</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+    <h2>Datos Clientes</h2>
+    <section>
+        <input type="text" id="fotoForm_inCodigo" placeholder="codigo">
+        <input type="text" id="fotoForm_inCostoBase" placeholder="costo base">
+        <input type="text" id="fotoForm_inTipoFoto" placeholder="tipo de foto">
+        <button id="fotoForm_btProcesarFoto">Procesar Fotografias</button>
+    </section>
+
+    <section>
+        <input type="text" id="videoForm_inCodigo" placeholder="codigo">
+        <input type="text" id="videoForm_inCostoBase" placeholder="costo base">
+        <input type="text" id="videoForm_inFormatoVideo" placeholder="Formato de Video">
+        <button id="video_btProcesarVideo">Procesar Videos</button>
+    </section>
+
+    <section>
+        
+        </div><br>
+
+        <table id="tablaFoto">
+            <h3>Salida Fotografias</h3>
+            <tr>
+                <th>Codigo</th> 
+                <th>Costo</th>
+                <th>Tipo</th>
+                <th>Descuento</th>
+                <th>Incremento</th>
+                <th>Precio</th>
+            </tr>
+        </table><br>
+
+        <table id="tablaVideo">
+            <h3>Salida Videos</h3>
+            <tr>
+                <th>Codigo</th> 
+                <th>Costo</th>
+                <th>HD</th>
+                <th>Incremento</th>
+                <th>Precio</th>
+            </tr>
+            </tr>
+        </table><br>
+        
+        <h3>Salida Tienda</h3>
+        <div id="salida"></div>
+    </section>
+
+</body>
+<script type="module">import Cl_index from "./js/index.js";
+    new Cl_index()
+    </script>
+</html>
